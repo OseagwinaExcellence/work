@@ -46,18 +46,6 @@ label {
      margin-bottom: 3px;
 }
 
-button {
-     width: 100px;
-     height: 30px;
-     text-align: center;
-     border: 1px white solid;
-     border-radius: 6px;
-     padding: 10px 10px 28px 10px;
-     font-weight: bolder;
-     font-family: inherit;
-     cursor: pointer;
-     font-size: larger;
-}
 
 .div-1 {
    margin-right: auto;

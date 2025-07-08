@@ -1,0 +1,94 @@
+body {
+     margin: 0;
+}
+
+header {
+     background-color: white;
+     color: black;
+     text-align: center;
+     height: 60px;
+     padding-top: 10px;
+     padding-bottom: 20px;
+}
+
+h1 {
+     font-size: 30px;
+}
+
+/*Form styling: as a container*/
+form {
+     width: 390px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-color: chocolate;
+     border: 3px solid wheat;
+     border-radius: 10px;
+     margin: 100px auto 100px auto;
+     height: 390px;
+}
+
+input {
+     width: 270px;
+     height: 20px;
+     border: 1px solid black;
+     border-radius: 6px;
+     padding: 5px 10px 5px 10px;
+     margin-bottom: 20px;
+     font-style: oblique;
+}
+
+label {
+     font-size: large;
+     margin-right: auto;
+     margin-left: 50px;
+     margin-bottom: 3px;
+}
+
+button {
+     width: 100px;
+     height: 30px;
+     text-align: center;
+     border: 1px white solid;
+     border-radius: 6px;
+     padding: 10px 10px 28px 10px;
+     font-weight: bolder;
+     font-family: inherit;
+     cursor: pointer;
+     font-size: larger;
+}
+
+.div-1 {
+   margin-right: auto;
+     margin-left: 60px;  
+}
+
+.checkbox {
+     width: 13px;
+     
+}
+
+.btn-1 {
+     background-color: whitesmoke;
+     color: black;
+}
+
+
+.btn-2 {
+      background-color: black;
+     color: white;
+}
+
+.btn-1:hover {
+     background-color: black;
+     transition: 0.5s;
+     color: white;
+}
+
+.btn-2:hover {
+     background-color: white;
+     transition: 0.5s;
+     color: black;
+}
+

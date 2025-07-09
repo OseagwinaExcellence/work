@@ -1,10 +1,20 @@
 body {
-     background-color: black;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-image: url(../../20231111_182247.jpg);
      color: white;
      font-family: monospace;
+     background-blend-mode: darken;
+     background-color: aqua;
 }
 
-button {
+form + div {
+     margin-top: 20px;
+     border-top: white solid 1px;
+}
+
+[class$="button"] {
      width: 100px;
      height: 30px;
      text-align: center;
@@ -21,4 +31,9 @@ button {
      background-color: black;
      transition: 0.5s;
      color: white;
+}
+
+[class$="button"]:hover {
+     box-shadow: 2px 2px orange;
+     transition: 0.3s;
 }

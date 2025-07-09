@@ -7,9 +7,16 @@ body {
      font-family: monospace;
      background-blend-mode: darken;
      background-color: aqua;
+
 }
 
-form + div {
+[class^="attach"] {
+  background-image: url("https://edube.org/uploads/media/default/0001/03/eodg_grey_fav.png");
+  background-attachment: fixed;
+  background-size: 100000000000px;
+}
+
+form + [class$="inde-div"] {
      margin-top: 20px;
      border-top: white solid 1px;
 }

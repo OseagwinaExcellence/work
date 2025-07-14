@@ -9,6 +9,9 @@ header {
      height: 60px;
      padding-top: 10px;
      padding-bottom: 20px;
+     position: fixed;
+     top: 0;
+     width: 100%;
 }
 
 h1 {
@@ -25,7 +28,7 @@ form {
      background-color: chocolate;
      border: 3px solid wheat;
      border-radius: 10px;
-     margin: 100px auto 100px auto;
+     margin: 200px auto 100px auto;
      height: 390px;
 }
 
@@ -37,9 +40,8 @@ form {
      padding: 5px 10px 5px 10px;
      margin-bottom: 20px;
      font-style: oblique;
-     outline-style: solid;
-     outline-color: black;
-     outline-width: 2px;
+     border: none;
+     outline: none;
 }
 
 label {
@@ -86,4 +88,8 @@ label {
 .cred-input::selection {
      color: red;
      background-color: black;
+}
+
+.but {
+     margin-top: 20px;
 }
